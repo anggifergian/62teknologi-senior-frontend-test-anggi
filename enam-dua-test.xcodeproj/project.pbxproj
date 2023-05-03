@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B22F5FAB815B28E7D79D10 /* Pods_enam_dua_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B602F7A129EB98C6CEDF8A7 /* Pods_enam_dua_test.framework */; };
 		3875D19229F82E3200427439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875D19129F82E3200427439 /* AppDelegate.swift */; };
 		3875D19429F82E3200427439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875D19329F82E3200427439 /* SceneDelegate.swift */; };
 		3875D19629F82E3200427439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875D19529F82E3200427439 /* ViewController.swift */; };
 		3875D19929F82E3200427439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3875D19729F82E3200427439 /* Main.storyboard */; };
 		3875D19B29F82E3700427439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3875D19A29F82E3700427439 /* Assets.xcassets */; };
 		3875D19E29F82E3700427439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3875D19C29F82E3700427439 /* LaunchScreen.storyboard */; };
+		38A1F37A2A0275D9006EF51B /* YelpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F3792A0275D9006EF51B /* YelpService.swift */; };
+		38A1F37F2A027A39006EF51B /* YelpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F37E2A027A39006EF51B /* YelpResponse.swift */; };
+		38A1F3812A027A55006EF51B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F3802A027A55006EF51B /* Category.swift */; };
+		38A1F3832A027CA4006EF51B /* BusinessShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F3822A027CA4006EF51B /* BusinessShort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		3875D19A29F82E3700427439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3875D19D29F82E3700427439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3875D19F29F82E3700427439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A1F3792A0275D9006EF51B /* YelpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpService.swift; sourceTree = "<group>"; };
+		38A1F37E2A027A39006EF51B /* YelpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpResponse.swift; sourceTree = "<group>"; };
+		38A1F3802A027A55006EF51B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		38A1F3822A027CA4006EF51B /* BusinessShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessShort.swift; sourceTree = "<group>"; };
+		4278761C35B73EAEF4EC7E42 /* Pods-enam-dua-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.debug.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.debug.xcconfig"; sourceTree = "<group>"; };
+		7B602F7A129EB98C6CEDF8A7 /* Pods_enam_dua_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enam_dua_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A2F23D33C53C46951B8D8F /* Pods-enam-dua-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.release.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B22F5FAB815B28E7D79D10 /* Pods_enam_dua_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				3875D19029F82E3200427439 /* enam-dua-test */,
 				3875D18F29F82E3200427439 /* Products */,
+				EC39CFCC6083372F73688ADE /* Pods */,
+				6F3DF59B2FA427E72FFE006C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +71,8 @@
 		3875D19029F82E3200427439 /* enam-dua-test */ = {
 			isa = PBXGroup;
 			children = (
+				38A1F37D2A027A2A006EF51B /* Models */,
+				38A1F3782A0275C4006EF51B /* Services */,
 				3875D19129F82E3200427439 /* AppDelegate.swift */,
 				3875D19329F82E3200427439 /* SceneDelegate.swift */,
 				3875D19529F82E3200427439 /* ViewController.swift */,
@@ -67,6 +84,41 @@
 			path = "enam-dua-test";
 			sourceTree = "<group>";
 		};
+		38A1F3782A0275C4006EF51B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				38A1F3792A0275D9006EF51B /* YelpService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38A1F37D2A027A2A006EF51B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38A1F37E2A027A39006EF51B /* YelpResponse.swift */,
+				38A1F3802A027A55006EF51B /* Category.swift */,
+				38A1F3822A027CA4006EF51B /* BusinessShort.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F3DF59B2FA427E72FFE006C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B602F7A129EB98C6CEDF8A7 /* Pods_enam_dua_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC39CFCC6083372F73688ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4278761C35B73EAEF4EC7E42 /* Pods-enam-dua-test.debug.xcconfig */,
+				B8A2F23D33C53C46951B8D8F /* Pods-enam-dua-test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3875D1A229F82E3700427439 /* Build configuration list for PBXNativeTarget "enam-dua-test" */;
 			buildPhases = (
+				5C0ADF5C15968936883DB1F1 /* [CP] Check Pods Manifest.lock */,
 				3875D18A29F82E3200427439 /* Sources */,
 				3875D18B29F82E3200427439 /* Frameworks */,
 				3875D18C29F82E3200427439 /* Resources */,
+				2E994455576D4AACF6C76451 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +187,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E994455576D4AACF6C76451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0ADF5C15968936883DB1F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-enam-dua-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3875D18A29F82E3200427439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A1F37F2A027A39006EF51B /* YelpResponse.swift in Sources */,
+				38A1F3832A027CA4006EF51B /* BusinessShort.swift in Sources */,
 				3875D19629F82E3200427439 /* ViewController.swift in Sources */,
 				3875D19229F82E3200427439 /* AppDelegate.swift in Sources */,
 				3875D19429F82E3200427439 /* SceneDelegate.swift in Sources */,
+				38A1F37A2A0275D9006EF51B /* YelpService.swift in Sources */,
+				38A1F3812A027A55006EF51B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +384,7 @@
 		};
 		3875D1A329F82E3700427439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4278761C35B73EAEF4EC7E42 /* Pods-enam-dua-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +412,7 @@
 		};
 		3875D1A429F82E3700427439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A2F23D33C53C46951B8D8F /* Pods-enam-dua-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
