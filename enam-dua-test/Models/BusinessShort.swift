@@ -19,6 +19,7 @@ struct BusinessShort: Decodable {
     let rating: Double
     let transactions: [String]
     let price: String
+    let photos: [String]
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -32,6 +33,7 @@ struct BusinessShort: Decodable {
         case rating
         case transactions
         case price
+        case photos
     }
     
     init(from decoder: Decoder) throws {
@@ -47,5 +49,6 @@ struct BusinessShort: Decodable {
         self.rating     = try container.decodeIfPresent(Double.self, forKey: .rating) ?? 0.0
         self.transactions = try container.decodeIfPresent([String].self, forKey: .transactions) ?? []
         self.price      = try container.decodeIfPresent(String.self, forKey: .price) ?? ""
+        self.photos     = try container.decodeIfPresent([String].self, forKey: .photos) ?? []
     }
 }
