@@ -18,6 +18,8 @@
 		38A1F37F2A027A39006EF51B /* YelpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F37E2A027A39006EF51B /* YelpResponse.swift */; };
 		38A1F3812A027A55006EF51B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F3802A027A55006EF51B /* Category.swift */; };
 		38A1F3832A027CA4006EF51B /* BusinessShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F3822A027CA4006EF51B /* BusinessShort.swift */; };
+		38C2B9D82A02C65300D84E40 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9D72A02C65300D84E40 /* HomeViewCell.swift */; };
+		38C2B9DC2A02D3A100D84E40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9DB2A02D3A100D84E40 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		38A1F37E2A027A39006EF51B /* YelpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpResponse.swift; sourceTree = "<group>"; };
 		38A1F3802A027A55006EF51B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		38A1F3822A027CA4006EF51B /* BusinessShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessShort.swift; sourceTree = "<group>"; };
+		38C2B9D72A02C65300D84E40 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		38C2B9DB2A02D3A100D84E40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4278761C35B73EAEF4EC7E42 /* Pods-enam-dua-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.debug.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.debug.xcconfig"; sourceTree = "<group>"; };
 		7B602F7A129EB98C6CEDF8A7 /* Pods_enam_dua_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enam_dua_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A2F23D33C53C46951B8D8F /* Pods-enam-dua-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.release.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +75,7 @@
 		3875D19029F82E3200427439 /* enam-dua-test */ = {
 			isa = PBXGroup;
 			children = (
+				38C2B9D62A02C63400D84E40 /* Home */,
 				38A1F37D2A027A2A006EF51B /* Models */,
 				38A1F3782A0275C4006EF51B /* Services */,
 				3875D19129F82E3200427439 /* AppDelegate.swift */,
@@ -100,6 +105,15 @@
 				38A1F3822A027CA4006EF51B /* BusinessShort.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		38C2B9D62A02C63400D84E40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				38C2B9D72A02C65300D84E40 /* HomeViewCell.swift */,
+				38C2B9DB2A02D3A100D84E40 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		6F3DF59B2FA427E72FFE006C /* Frameworks */ = {
@@ -235,9 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A1F37F2A027A39006EF51B /* YelpResponse.swift in Sources */,
+				38C2B9D82A02C65300D84E40 /* HomeViewCell.swift in Sources */,
 				38A1F3832A027CA4006EF51B /* BusinessShort.swift in Sources */,
 				3875D19629F82E3200427439 /* ViewController.swift in Sources */,
 				3875D19229F82E3200427439 /* AppDelegate.swift in Sources */,
+				38C2B9DC2A02D3A100D84E40 /* HomeViewController.swift in Sources */,
 				3875D19429F82E3200427439 /* SceneDelegate.swift in Sources */,
 				38A1F37A2A0275D9006EF51B /* YelpService.swift in Sources */,
 				38A1F3812A027A55006EF51B /* Category.swift in Sources */,

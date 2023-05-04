@@ -7,4 +7,5 @@ target 'enam-dua-test' do
 
   # Pods for enam-dua-test
   pod 'Alamofire'
+  pod 'SDWebImage'
 end
