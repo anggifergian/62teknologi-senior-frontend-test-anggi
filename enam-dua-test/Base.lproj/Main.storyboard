@@ -178,7 +178,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q0d-La-Fbx">
-                                                    <rect key="frame" x="20" y="10" width="50" height="50"/>
+                                                    <rect key="frame" x="20" y="12" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="PFP-cf-FsC"/>
                                                         <constraint firstAttribute="width" constant="50" id="noo-u1-BcI"/>
@@ -191,29 +191,29 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZV-Bu-xeC">
-                                                    <rect key="frame" x="84" y="44" width="31" height="15"/>
+                                                    <rect key="frame" x="84" y="40" width="31" height="15"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <color key="textColor" systemColor="systemGray2Color"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFT-fD-H05">
-                                                    <rect key="frame" x="20" y="70" width="374" height="55"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFT-fD-H05">
+                                                    <rect key="frame" x="20" y="72" width="374" height="51"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="qZV-Bu-xeC" firstAttribute="leading" secondItem="312-uB-dHL" secondAttribute="leading" id="9oE-3E-Lig"/>
-                                                <constraint firstItem="qZV-Bu-xeC" firstAttribute="top" secondItem="312-uB-dHL" secondAttribute="bottom" constant="8" id="EU1-gp-dxw"/>
+                                                <constraint firstItem="qZV-Bu-xeC" firstAttribute="top" secondItem="312-uB-dHL" secondAttribute="bottom" constant="4" id="EU1-gp-dxw"/>
                                                 <constraint firstItem="nFT-fD-H05" firstAttribute="leading" secondItem="eGR-Wx-UdF" secondAttribute="leading" constant="20" id="QzU-2k-x4m"/>
                                                 <constraint firstItem="q0d-La-Fbx" firstAttribute="leading" secondItem="eGR-Wx-UdF" secondAttribute="leading" constant="20" id="Rbz-pJ-VY9"/>
                                                 <constraint firstItem="312-uB-dHL" firstAttribute="top" secondItem="eGR-Wx-UdF" secondAttribute="topMargin" constant="4" id="UWY-4Q-QpL"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="312-uB-dHL" secondAttribute="trailing" constant="20" symbolic="YES" id="V1m-xO-s2h"/>
-                                                <constraint firstItem="q0d-La-Fbx" firstAttribute="top" secondItem="eGR-Wx-UdF" secondAttribute="top" constant="10" id="YS9-8s-v5s"/>
+                                                <constraint firstItem="q0d-La-Fbx" firstAttribute="top" secondItem="eGR-Wx-UdF" secondAttribute="top" constant="12" id="YS9-8s-v5s"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qZV-Bu-xeC" secondAttribute="trailing" constant="20" symbolic="YES" id="ZaK-VW-kmv"/>
                                                 <constraint firstItem="nFT-fD-H05" firstAttribute="top" secondItem="q0d-La-Fbx" secondAttribute="bottom" constant="10" id="c5x-Vg-hLq"/>
-                                                <constraint firstAttribute="bottom" secondItem="nFT-fD-H05" secondAttribute="bottom" constant="10" id="cQn-L7-wOu"/>
+                                                <constraint firstAttribute="bottom" secondItem="nFT-fD-H05" secondAttribute="bottom" constant="12" id="cQn-L7-wOu"/>
                                                 <constraint firstItem="312-uB-dHL" firstAttribute="leading" secondItem="q0d-La-Fbx" secondAttribute="trailing" constant="14" id="hDM-yx-Suv"/>
                                                 <constraint firstAttribute="trailing" secondItem="nFT-fD-H05" secondAttribute="trailing" constant="20" id="lfG-8U-Cvv"/>
                                             </constraints>

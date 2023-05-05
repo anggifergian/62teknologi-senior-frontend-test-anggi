@@ -133,7 +133,7 @@ extension HomeDetailViewController: UITableViewDataSource {
         let item = reviewsList[indexPath.row]
         
         cell.profileImage.sd_setImage(with: URL(string: item.user.imageUrl))
-        cell.userNameLabel.text     = item.user.name
+        cell.userNameLabel.text     = "\(item.user.name) (\(item.rating)/5)"
         cell.reviewDateLabel.text   = item.timeCreated
         cell.reviewDescLabel.text   = item.text
         
