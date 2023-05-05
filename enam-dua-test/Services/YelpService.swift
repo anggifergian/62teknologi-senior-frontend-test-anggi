@@ -51,3 +51,22 @@ class YelpService {
             }
     }
 }
+
+extension YelpService {
+    func fetchReviews(id: String, completion: @escaping (Result<[Reviews], Error>) -> Void) {
+        let urlString = "\(BASE_URL)/businesses/\(id)/reviews"
+        let headers: HTTPHeaders = ["Content-Type": "application/json", "Authorization": "Bearer \(API_KEY)"]
+        let parameters: Parameters = ["sort_by": "yelp_sort", "limit": 20]
+        
+        AF.request(urlString, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: headers)
+            .validate()
+            .responseDecodable(of: ReviewsResponse.self) { response in
+                switch response.result {
+                case .success(let resp):
+                    completion(.success(resp.reviews))
+                case .failure(let err):
+                    completion(.failure(err))
+                }
+            }
+    }
+}

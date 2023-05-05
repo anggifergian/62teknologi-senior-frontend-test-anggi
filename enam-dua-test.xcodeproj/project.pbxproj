@@ -24,6 +24,8 @@
 		38C2B9E12A03834500D84E40 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9E02A03834500D84E40 /* DetailCollectionViewCell.swift */; };
 		38C2B9E32A048BF500D84E40 /* ReviewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9E22A048BF500D84E40 /* ReviewsResponse.swift */; };
 		38C2B9E52A048C1D00D84E40 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9E42A048C1D00D84E40 /* Reviews.swift */; };
+		38C2B9E72A04925700D84E40 /* UserShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9E62A04925700D84E40 /* UserShort.swift */; };
+		38C2B9EA2A0497ED00D84E40 /* ReviewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B9E92A0497ED00D84E40 /* ReviewsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		38C2B9E02A03834500D84E40 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		38C2B9E22A048BF500D84E40 /* ReviewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsResponse.swift; sourceTree = "<group>"; };
 		38C2B9E42A048C1D00D84E40 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		38C2B9E62A04925700D84E40 /* UserShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShort.swift; sourceTree = "<group>"; };
+		38C2B9E92A0497ED00D84E40 /* ReviewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewCell.swift; sourceTree = "<group>"; };
 		4278761C35B73EAEF4EC7E42 /* Pods-enam-dua-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.debug.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.debug.xcconfig"; sourceTree = "<group>"; };
 		7B602F7A129EB98C6CEDF8A7 /* Pods_enam_dua_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enam_dua_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A2F23D33C53C46951B8D8F /* Pods-enam-dua-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enam-dua-test.release.xcconfig"; path = "Target Support Files/Pods-enam-dua-test/Pods-enam-dua-test.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				38A1F3822A027CA4006EF51B /* BusinessShort.swift */,
 				38C2B9E22A048BF500D84E40 /* ReviewsResponse.swift */,
 				38C2B9E42A048C1D00D84E40 /* Reviews.swift */,
+				38C2B9E62A04925700D84E40 /* UserShort.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			children = (
 				38C2B9DE2A0374DB00D84E40 /* HomeDetailViewController.swift */,
 				38C2B9E02A03834500D84E40 /* DetailCollectionViewCell.swift */,
+				38C2B9E92A0497ED00D84E40 /* ReviewsViewCell.swift */,
 			);
 			path = HomeDetail;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				38C2B9E12A03834500D84E40 /* DetailCollectionViewCell.swift in Sources */,
 				38C2B9DF2A0374DB00D84E40 /* HomeDetailViewController.swift in Sources */,
 				38A1F37F2A027A39006EF51B /* BusinessResponse.swift in Sources */,
+				38C2B9E72A04925700D84E40 /* UserShort.swift in Sources */,
 				38C2B9D82A02C65300D84E40 /* HomeViewCell.swift in Sources */,
 				38A1F3832A027CA4006EF51B /* BusinessShort.swift in Sources */,
 				3875D19629F82E3200427439 /* ViewController.swift in Sources */,
@@ -280,6 +287,7 @@
 				38C2B9DC2A02D3A100D84E40 /* HomeViewController.swift in Sources */,
 				3875D19429F82E3200427439 /* SceneDelegate.swift in Sources */,
 				38A1F37A2A0275D9006EF51B /* YelpService.swift in Sources */,
+				38C2B9EA2A0497ED00D84E40 /* ReviewsViewCell.swift in Sources */,
 				38A1F3812A027A55006EF51B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
