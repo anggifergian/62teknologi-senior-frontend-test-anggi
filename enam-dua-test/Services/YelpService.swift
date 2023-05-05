@@ -25,7 +25,7 @@ class YelpService {
         
         AF.request(urlString, method: .get, parameters: parameters, encoding: URLEncoding.queryString, headers: headers)
             .validate()
-            .responseDecodable(of: YelpResponse.self) { response in
+            .responseDecodable(of: BusinessResponse.self) { response in
                 switch response.result {
                 case .success(let resp):
                     completion(.success(resp.businesses))

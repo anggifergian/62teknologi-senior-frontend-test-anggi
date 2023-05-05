@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct YelpResponse: Decodable {
+struct BusinessResponse: Decodable {
     let businesses: [BusinessShort]
     let total: Int
     

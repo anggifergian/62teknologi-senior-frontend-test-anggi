@@ -21,6 +21,8 @@ class HomeViewController: UIViewController {
         homeTableView.delegate = self
         
         fetchBusiness()
+        
+        title = ""
     }
     
     func fetchBusiness() {
@@ -71,5 +73,14 @@ extension HomeViewController: UITableViewDataSource {
 
 // MARK: - UITableViewDelegate
 extension HomeViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        homeTableView.deselectRow(at: indexPath, animated: true)
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "home_detail") as! HomeDetailViewController
+        
+        let item = businessList[indexPath.row]
+        vc.businessId   = item.id
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
